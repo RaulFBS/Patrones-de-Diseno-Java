@@ -1,4 +1,5 @@
 package producto;
 
-public class Notificacion {
+public interface Notificacion {
+   void notificar(String mensaje);
 }
