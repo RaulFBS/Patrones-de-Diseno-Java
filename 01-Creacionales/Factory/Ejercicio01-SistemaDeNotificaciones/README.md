@@ -8,3 +8,15 @@ como correo, SMS o WhatsApp, para estar informado según el canal que elija.
 Crea un sisma donde el usuario pueda elegir el tipo de notificacion: "email" ,
 "sms" o "whatsapp". Según esa opción, el programa debe crear el objeto crrespondiente
 usando una Factory
+## Clases Principales
+- "NotificacionFactory"
+- "Sms"
+- "WhatsApp"
+- "Email"
+- "Notificacion"
+- "SmsNotificacion"
+- "WhatsAppNotificacion"
+- "EmailNotificacion"
+
+## Diagrama de Clases
+![Diagrama de clses](diagramas/DiagramaDeClases.drawio.png)
