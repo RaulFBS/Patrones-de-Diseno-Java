@@ -36,3 +36,6 @@ Tu sistema debe tener:
 
 ## Reto Extra
 Agrega después un nuevo tipo de reporte
+
+## Diagrama de Clases
+![Diagrama de Clases](Diagramas/DiagramaClases.png)
