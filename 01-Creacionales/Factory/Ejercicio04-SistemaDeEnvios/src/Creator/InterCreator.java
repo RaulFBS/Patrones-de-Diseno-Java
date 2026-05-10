@@ -14,7 +14,7 @@ public class InterCreator extends EnvioCreator{
 
     @Override
     public boolean validarPedido(PedidoEnvio pedido) {
-        if(!validarPedido(pedido)){
+        if(!super.validarPedido(pedido)){
         return false;}
         if(pedido.getPegoKg()>30){
             System.out.println("El peso del envio internacional no puede superar los 30kg");

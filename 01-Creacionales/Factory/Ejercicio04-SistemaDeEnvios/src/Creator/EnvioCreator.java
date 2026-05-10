@@ -7,9 +7,11 @@ public abstract class EnvioCreator {
     public abstract Envio crearEnvio();
 
     public void gestionarPedido(PedidoEnvio pedido) {
-        if (validarPedido(pedido)) {
+        if (!validarPedido(pedido)) {
             System.out.println("El pedido del envio no es valido");
+            return;
         }
+
         Envio envio = crearEnvio();
         envio.enviar(pedido);
     }
