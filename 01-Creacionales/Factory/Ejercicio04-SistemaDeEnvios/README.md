@@ -12,6 +12,7 @@ El sistema debe pedir trabajar con estos tipos de envío.
     - Envío recojo en tienda
 Cada tipo de envío debe calcular o mostrar el
 proceso de envío de forma diferente.
+
 ---
 ## Solicitud del cliente
 Necesito un sistema que gestione envíos de pedidos. 
