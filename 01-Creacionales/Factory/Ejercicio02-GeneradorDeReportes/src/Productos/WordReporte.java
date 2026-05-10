@@ -1,4 +1,7 @@
 package Productos;
 
-public class WordReporte {
+public class WordReporte implements Reporte{
+
+    @Override
+    public void generarReporte(String reporte) {}
 }

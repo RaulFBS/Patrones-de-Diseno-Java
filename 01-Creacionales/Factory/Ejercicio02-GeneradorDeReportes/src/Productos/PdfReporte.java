@@ -1,4 +1,7 @@
 package Productos;
 
-public class PdfReporte {
+public class PdfReporte implements Reporte {
+
+    @Override
+    public void generarReporte(String reporte) {}
 }
