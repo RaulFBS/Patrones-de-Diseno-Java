@@ -47,4 +47,16 @@ public class PedidoEnvio {
     public void setCostoProducto(double costoProducto) {
         this.costoProducto = costoProducto;
     }
+
+    public boolean isvalido() {
+        return cliente != null && direccion != null && pegoKg > 0 && costoProducto > 0;
+    }
+
+    @Override
+    public String toString() {
+        return "\nCliente: " + cliente  +
+                "\nDireccion: " + direccion +
+                "\nPegoKg: " + pegoKg +
+                "\nCosto del Producto: " + costoProducto;
+    }
 }
