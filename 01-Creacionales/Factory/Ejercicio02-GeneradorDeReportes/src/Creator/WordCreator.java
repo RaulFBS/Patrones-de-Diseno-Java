@@ -6,7 +6,7 @@ import Productos.WordReporte;
 
 public class WordCreator extends ReportesCreator{
     @Override
-    public Reporte crearReporte(String reporte) {
+    public Reporte crearReporte() {
         return new WordReporte();
     }
 }

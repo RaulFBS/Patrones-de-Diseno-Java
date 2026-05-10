@@ -5,7 +5,7 @@ import Productos.Reporte;
 
 public class ExcelCreator extends ReportesCreator{
     @Override
-    public Reporte crearReporte(String reporte) {
+    public Reporte crearReporte() {
         return new ExcelReporte();
     }
 }
