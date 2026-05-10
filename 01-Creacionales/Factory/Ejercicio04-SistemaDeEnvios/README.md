@@ -59,3 +59,8 @@ Agrega una validación especial:
     -Si el envio es internacional, el peso no puede ser
     mayor a 30kg
 
+---
+
+## Digrama de Clases
+![Diagrama de Clases](Diagramas/DiagramasDeClases.png)
+
