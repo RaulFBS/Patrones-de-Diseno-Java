@@ -22,6 +22,7 @@ envío programado o envío gratuito.
 No quiero que el sistema principal cree directamente
 las clases concretas de envío. Cada tipo de envío
 debe tener su propia fábrica.
+
 ---
 ## Requisitos usando Factory Method
     -Una interfaz o clase abstracta Envio
