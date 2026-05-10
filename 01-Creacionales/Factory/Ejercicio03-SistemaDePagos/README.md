@@ -42,3 +42,6 @@ Agregar una validación:
 
     -Si el monto es menor o igual a 0, no se debe procesar el pago.
 
+## Diagrama de clases
+
+![Diagrama de clases](Diagramas/DiagramaDeClases.png)
