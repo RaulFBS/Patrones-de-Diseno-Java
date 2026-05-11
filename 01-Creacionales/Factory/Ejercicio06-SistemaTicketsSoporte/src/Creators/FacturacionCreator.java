@@ -1,4 +1,16 @@
 package Creators;
 
-public class FacturacionCreator {
+import Modelos.SolicitudTicket;
+import Productos.TicketSoporte;
+
+public class FacturacionCreator extends TicketsCreator {
+    @Override
+    public TicketSoporte createTicketSoporte() {
+        return null;
+    }
+
+    @Override
+    public boolean validarSolicitudTicket(SolicitudTicket solicitud) {
+        return super.validarSolicitudTicket(solicitud);
+    }
 }
