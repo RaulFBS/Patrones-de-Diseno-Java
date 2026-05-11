@@ -140,3 +140,7 @@ Y debes agregar solamente:
     EstudianteCreator
 
 No deberías modificar las clases principales ya existentes.
+
+## Diagrama de Clases
+
+![Diagrama de clases](Diagramas/DiagramaDeClases.png)
