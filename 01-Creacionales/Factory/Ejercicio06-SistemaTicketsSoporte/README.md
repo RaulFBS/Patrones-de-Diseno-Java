@@ -151,3 +151,6 @@ Y debes agregar solamente:
 
 La idea es que no tengas que modificar TicketCreator, ni TicketSoporte, ni las clases
 ya existentes.
+
+## Diagrama de clases
+![Diagrama de clases](Diagramas/DiagramaClases.png)
