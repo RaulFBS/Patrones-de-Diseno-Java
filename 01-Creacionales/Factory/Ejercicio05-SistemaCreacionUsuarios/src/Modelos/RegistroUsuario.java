@@ -72,18 +72,24 @@ public class RegistroUsuario {
     public boolean isValid(){
         if(nombre == null || nombre.isEmpty()){
             System.out.println("El nombre no debe esta vacío.");
+            return false;
+
         }
         if(correo == null || correo.isEmpty()){
             System.out.println("El correo no debe estar vacío.");
+            return false;
         }
         if(!correo.contains("@")){
             System.out.println("El correo debe contener @.");
+            return false;
         }
         if(password == null || password.length() < 6){
             System.out.println("El password debe contener 6 caracteres.");
+            return false;
         }
         if(edad <13){
             System.out.println("El edad debe ser mayor o igual a 13.");
+            return false;
         }
         return true;
     }
