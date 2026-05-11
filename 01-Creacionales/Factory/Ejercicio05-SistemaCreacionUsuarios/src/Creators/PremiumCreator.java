@@ -12,6 +12,13 @@ public class PremiumCreator extends CuentasCreator{
 
     @Override
     public boolean validarCuenta(RegistroUsuario usuario) {
-        return super.validarCuenta(usuario);
+        if(!super.validarCuenta(usuario)){
+            return false;
+        };
+        if (usuario.getPagoInicial()<=0){
+            System.out.println("El pago inicial debe ser mayor a 0");
+            return false;
+        }
+        return true;
     }
 }

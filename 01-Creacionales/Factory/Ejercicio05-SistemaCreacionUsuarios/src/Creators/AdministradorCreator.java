@@ -12,7 +12,13 @@ public class AdministradorCreator extends CuentasCreator{
 
     @Override
     public boolean validarCuenta(RegistroUsuario usuario) {
-        return super.validarCuenta(usuario);
-
+        if (!super.validarCuenta(usuario)){
+            return  false;
+        }
+        if(!usuario.getCorreo().endsWith("@empresa.com")){
+            System.out.println("El correo debe terminar en @empresa.com");
+            return false;
+        }
+        return true;
     }
 }

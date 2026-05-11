@@ -12,6 +12,16 @@ public class VendedorCreator extends CuentasCreator{
 
     @Override
     public boolean validarCuenta(RegistroUsuario usuario) {
-        return super.validarCuenta(usuario);
+        if (!super.validarCuenta(usuario)){
+            return false;
+        }
+        if(usuario.getRuc().isEmpty()||usuario.getRuc().equals("")){
+            System.out.println("El ruc no debe estar vacio");
+            return false;
+        }
+        if(usuario.getRuc().length()<11){
+            System.out.println("El ruc debe tener 11 digitos");
+        }
+        return true;
     }
 }
