@@ -1,13 +1,15 @@
 package Creators;
 
 import Modelos.SolicitudTicket;
+import Productos.TicketReclamo;
 import Productos.TicketSoporte;
 
 public class ReclamoCreator extends TicketsCreator {
 
     @Override
     public TicketSoporte createTicketSoporte() {
-        return null;
+
+        return new TicketReclamo();
     }
 
     @Override
