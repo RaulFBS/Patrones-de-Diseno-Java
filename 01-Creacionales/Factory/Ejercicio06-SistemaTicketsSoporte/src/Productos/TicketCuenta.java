@@ -5,7 +5,7 @@ import Modelos.SolicitudTicket;
 public class TicketCuenta implements TicketSoporte{
     @Override
     public void atenderTicket(SolicitudTicket solicitud) {
-        
+
     }
 
     @Override
