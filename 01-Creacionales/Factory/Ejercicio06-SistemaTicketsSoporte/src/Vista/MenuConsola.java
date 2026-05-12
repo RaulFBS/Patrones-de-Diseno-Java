@@ -14,6 +14,7 @@ public class MenuConsola {
         do {
             mostrarMenu();
             opcion = sc.nextInt();
+            sc.nextLine();
             switch (opcion) {
                 case 1:
                     registrarTicket(new TecnicoCreator());
@@ -52,16 +53,22 @@ public class MenuConsola {
     private SolicitudTicket pedirDatos() {
         System.out.println("Cliente: ");
         String cliente = sc.nextLine();
+
         System.out.println("Correo: ");
         String correo = sc.nextLine();
+
         System.out.println("Descripcion: ");
         String descripcion = sc.nextLine();
+
         System.out.println("Codigo del Pedido: ");
         String codigoPedido = sc.nextLine();
+
         System.out.println("Categoria: ");
         String categoria = sc.nextLine();
+
         System.out.println("Nivel de urgencia 1 - 5: ");
         int nivelUrgencia = sc.nextInt();
+
         System.out.println("Client Premium: ");
         boolean premium = sc.nextBoolean();
         return new SolicitudTicket(
