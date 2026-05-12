@@ -13,6 +13,15 @@ public class TecnicoCreator extends TicketsCreator{
 
     @Override
     public boolean validarSolicitudTicket(SolicitudTicket solicitud) {
-        return super.validarSolicitudTicket(solicitud);
+        if( !super.validarSolicitudTicket(solicitud)){
+            return false;
+        }
+        String categoria = solicitud.getCategoria().toLowerCase();
+        if(!(categoria.equals("tecnico")||categoria.equals("sistema"))){
+            System.out.println("La categoria debe ser tecnico o sistema");
+            return false;
+        }
+        return true;
+
     }
 }

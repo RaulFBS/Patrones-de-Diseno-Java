@@ -13,7 +13,18 @@ public class CuentaCreator extends TicketsCreator{
 
     @Override
     public boolean validarSolicitudTicket(SolicitudTicket solicitud) {
-        return super.validarSolicitudTicket(solicitud);
+        if(!super.validarSolicitudTicket(solicitud)){
+            return false;
+        }
+        String categoria = solicitud.getCategoria().toLowerCase();
+        if(!(categoria.equals("cuenta") ||
+                categoria.equals("login")||
+                categoria.equals("cuenta")||
+                categoria.equals("seguridad"))){
+            System.out.println("La categoria debe ser cuenta, login o seguridad");
+            return false;
+        }
+        return true;
     }
 
 }
