@@ -3,7 +3,7 @@ package Productos;
 import Modelos.SolicitudDocumento;
 
 public class ConstanciaMatricula implements DocumentoAcademico{
-    SolicitudDocumento solicitud;
+    private SolicitudDocumento solicitud;
     private double precio;
     @Override
     public void generarDocumento(SolicitudDocumento solicitud) {
