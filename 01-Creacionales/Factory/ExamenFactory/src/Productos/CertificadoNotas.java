@@ -3,10 +3,11 @@ package Productos;
 import Modelos.SolicitudDocumento;
 
 public class CertificadoNotas implements DocumentoAcademico{
-    SolicitudDocumento solicitud;
+    private SolicitudDocumento solicitud;
     private double precio;
     @Override
     public void generarDocumento(SolicitudDocumento solicitud) {
+        this.solicitud = solicitud;
         System.out.println("Generando  Certificado Notas");
     }
 
