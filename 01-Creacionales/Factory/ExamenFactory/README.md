@@ -211,3 +211,5 @@ No deberías modificar:
     DocumentoCreator
     DocumentoAcademico
     SolicitudDocumento
+## Diagrama de Clases
+![Diagrama de clases](Diagramas/DiagramaDeClases.png)
