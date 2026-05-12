@@ -22,7 +22,7 @@ public class CartaPresentacion implements DocumentoAcademico{
         System.out.println("Mostrando Resumen");
         System.out.println(solicitud);
         System.out.println("Precio: " + precio);
-        
+
 
     }
 }
