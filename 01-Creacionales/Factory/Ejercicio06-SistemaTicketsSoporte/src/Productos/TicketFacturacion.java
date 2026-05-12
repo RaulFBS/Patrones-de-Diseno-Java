@@ -7,6 +7,7 @@ public class TicketFacturacion implements TicketSoporte{
     private String prioridad;
     @Override
     public void atenderTicket(SolicitudTicket solicitud) {
+        this.solicitud = solicitud;
         System.out.println("ATENDIENDO TICKET DE SOPORTE DE CUENTA");
     }
 
