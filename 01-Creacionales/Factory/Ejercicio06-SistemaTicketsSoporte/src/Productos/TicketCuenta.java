@@ -13,13 +13,20 @@ public class TicketCuenta implements TicketSoporte{
 
     @Override
     public void calcularPrioridad(SolicitudTicket solicitud) {
-        if(solicitud.getCategoria().equals("seguridad")){
+        String categoria = solicitud.getCategoria().toLowerCase();
+        int uregencia = solicitud.getNivelUrgencia();
+
+        if(uregencia ==5){
+            prioridad = "Critica";
+        }
+        else if(categoria.equals("seguridad") && uregencia>=3){
             prioridad="Alta";
         }
-        else if(solicitud.getCategoria().equals("cuenta")){
+        else if(categoria.equals("cuenta")|| categoria.equals("login")  || uregencia>=2){
             prioridad="Media";
         }
-        else if(solicitud.getCategoria().equals("login")){
+        else {
+
             prioridad="Baja";
         }
     }

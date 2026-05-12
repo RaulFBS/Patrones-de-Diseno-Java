@@ -19,7 +19,6 @@ public class CuentaCreator extends TicketsCreator{
         String categoria = solicitud.getCategoria().toLowerCase();
         if(!(categoria.equals("cuenta") ||
                 categoria.equals("login")||
-                categoria.equals("cuenta")||
                 categoria.equals("seguridad"))){
             System.out.println("La categoria debe ser cuenta, login o seguridad");
             return false;
