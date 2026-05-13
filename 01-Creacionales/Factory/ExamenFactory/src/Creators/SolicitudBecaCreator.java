@@ -7,7 +7,7 @@ import Productos.SolicitudBeca;
 public class SolicitudBecaCreator extends DocumentoCreator {
     @Override
     public DocumentoAcademico crearDocumento() {
-        return null;
+        return new SolicitudBeca();
     }
 
     @Override
