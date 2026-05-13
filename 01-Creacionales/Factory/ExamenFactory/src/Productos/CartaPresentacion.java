@@ -14,7 +14,7 @@ public class CartaPresentacion implements DocumentoAcademico{
     @Override
     public void calcularCosto(SolicitudDocumento solicitud) {
         System.out.println("Calculando costo de  carta de presentacion");
-        precio = 50;
+        precio = 15;
     }
 
     @Override
