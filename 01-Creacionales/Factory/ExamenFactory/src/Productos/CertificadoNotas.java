@@ -14,7 +14,10 @@ public class CertificadoNotas implements DocumentoAcademico{
     @Override
     public void calcularCosto(SolicitudDocumento solicitud) {
         System.out.println("Calculando  Costo");
-        precio = 150;
+        precio = 20;
+        if(solicitud.getPromedio()>=18){
+            precio = precio-5;
+        }
     }
 
     @Override
