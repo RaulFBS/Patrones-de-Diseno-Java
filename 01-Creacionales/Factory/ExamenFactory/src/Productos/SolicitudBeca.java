@@ -14,7 +14,7 @@ public class SolicitudBeca implements DocumentoAcademico{
     @Override
     public void calcularCosto(SolicitudDocumento solicitud) {
         System.out.println("Calculando Costo de Beca");
-        precio = 70;
+        precio = 0;
     }
 
     @Override
