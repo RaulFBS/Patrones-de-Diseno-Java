@@ -12,6 +12,7 @@ public class CartaPresentacionCreator extends DocumentoCreator{
 
     @Override
     public boolean validarSolicitud(SolicitudDocumento solicitud) {
+        String motivo = solicitud.getMotivo().toLowerCase();
         if(!super.validarSolicitud(solicitud)){
             return false;
         }
@@ -19,7 +20,12 @@ public class CartaPresentacionCreator extends DocumentoCreator{
             System.out.println("El ciclo debe ser mayor a 5.");
             return false;
         }
-        if(solicitud.getMotivo().toLowerCase().contains("practicas")){}
+
+        if(!(motivo.contains("practicas")||motivo.contains("trabajo")||motivo.contains("empresa"))){
+            System.out.println("El motivo de contener la palabra 'Practicas','Trabajo' o 'Empresa' .");
+            return false;
+        }
+
         return true;
     }
 }
