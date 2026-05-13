@@ -14,7 +14,7 @@ public class ConstanciaMatricula implements DocumentoAcademico{
     @Override
     public void calcularCosto(SolicitudDocumento solicitud) {
         System.out.println("Calculando Costo");
-        precio = 200.00;
+        precio = 10;
     }
 
     @Override
