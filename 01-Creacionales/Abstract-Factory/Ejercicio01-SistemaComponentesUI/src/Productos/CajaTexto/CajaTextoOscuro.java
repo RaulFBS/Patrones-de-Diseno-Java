@@ -1,4 +1,6 @@
 package Productos.CajaTexto;
 
-public class CajaTextoOscuro {
+public class CajaTextoOscuro extends CajaTexto {
+    @Override
+    public void escribir() {}
 }
