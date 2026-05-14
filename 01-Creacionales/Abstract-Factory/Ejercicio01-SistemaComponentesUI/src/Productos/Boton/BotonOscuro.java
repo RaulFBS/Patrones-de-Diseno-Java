@@ -1,4 +1,6 @@
 package Productos.Boton;
 
-public class BotonOscuro {
+public class BotonOscuro extends Boton{
+    @Override
+    public void presionar() {}
 }
