@@ -11,14 +11,13 @@ public class Cliente {
     private Notificacion notificacion;
     private Sonido sonido;
     public Cliente(NotificacionFactory factory) {
-        this.factory = factory;
+        this.icono = factory.createIcono();
+        this.sonido = factory.createSonido();
+        this.notificacion = factory.createNotificacion();
     }
 
     public void crearNotificacion() {
-        icono = factory.createIcono();
-        sonido = factory.createSonido();
-        notificacion = factory.createNotificacion();
-
+        System.out.println("Creando notificacion");
         icono.mostrar();
         sonido.reproducir();
         notificacion.enviar();
