@@ -139,3 +139,6 @@ Si cambias a iOS:
     Enviando notificación estilo iOS.
     Reproduciendo sonido de iOS.
     Mostrando icono de iOS.
+
+## Diagrama de clases
+![Diagrama de clases](Diagramas/DiagramaClases.png)
