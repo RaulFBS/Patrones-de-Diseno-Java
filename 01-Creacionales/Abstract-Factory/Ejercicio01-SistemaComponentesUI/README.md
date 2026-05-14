@@ -93,3 +93,6 @@ La diferencia principal es esta:
 
     Factory Method = crea un producto
     Abstract Factory = crea una familia de productos relacionados
+
+## Diagrama de Clases
+![Diagrama de clases](Diagramas/DiagramaClases.png)
