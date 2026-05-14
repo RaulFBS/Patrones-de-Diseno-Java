@@ -142,3 +142,5 @@ solo debe crear:
     PlatoPrincipalPeruano
     BebidaPeruana
 
+## Diagrama de clases
+![Diagrama de clases](Diagrama/DiagramaClases.png)
