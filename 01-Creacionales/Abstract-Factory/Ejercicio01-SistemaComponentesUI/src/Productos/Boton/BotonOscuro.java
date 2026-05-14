@@ -2,5 +2,7 @@ package Productos.Boton;
 
 public class BotonOscuro extends Boton{
     @Override
-    public void presionar() {}
+    public void presionar() {
+        System.out.println("BotonOscuro presionando...");
+    }
 }
