@@ -147,4 +147,4 @@ Si usas gasolina:
     Camioneta a gasolina Ford transportando carga pesada.
 
 ## Diagrama de Clases
-![Diagrama de clases](Diagramas/DiagramaClases.png)
+![Diagrama de clases](Diagramas/DiagramaClases.png8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/8/)
