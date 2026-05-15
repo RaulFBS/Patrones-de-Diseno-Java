@@ -145,3 +145,6 @@ Si usas gasolina:
     Auto a gasolina Toyota Corolla conduciendo con motor de combustión.
     Moto a gasolina Yamaha arrancando con motor tradicional.
     Camioneta a gasolina Ford transportando carga pesada.
+
+## Diagrama de Clases
+![Diagrama de clases](Diagramas/DiagramaClases.png)
