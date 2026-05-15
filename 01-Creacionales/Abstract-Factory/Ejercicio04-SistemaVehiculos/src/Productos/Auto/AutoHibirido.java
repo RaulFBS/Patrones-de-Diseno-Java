@@ -7,6 +7,7 @@ public class AutoHibirido extends Auto {
 
     @Override
     public void conducir() {
-
+        System.out.println("Hibrido conducido");
+        mostrarDatos();
     }
 }

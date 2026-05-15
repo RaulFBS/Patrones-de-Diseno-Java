@@ -7,6 +7,8 @@ public class AutoGasolina extends Auto {
 
     @Override
     public void conducir() {
-
+        System.out.println("AutoGasolina conducido");
+        mostrarDatos();
     }
+
 }

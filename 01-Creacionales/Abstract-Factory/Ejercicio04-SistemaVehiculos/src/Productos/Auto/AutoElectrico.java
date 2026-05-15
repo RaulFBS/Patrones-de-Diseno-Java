@@ -8,6 +8,8 @@ public class AutoElectrico extends Auto{
 
     @Override
     public void conducir() {
+        System.out.println("AutoElectrico conducido");
+        mostrarDatos();
 
     }
 }
